@@ -1,0 +1,3 @@
+Kinetic Hybrid PR (Point-Region) and PMR (Polygon-Map-Random) Quad Tree. This class is a working framework for a Kinetic PR/PMR Quad tree. Basically your standard Quad tree is static and filled once, or filled continuously without any removals. The Kinetic PR/PMR Quad tree takes into account objects in motion, along with static objects. Each object in the quad tree extends the Observable abstract class, which allows the quad tree nodes to be notified when an object moves in the coordinate space.
+
+Quadtree [Implementation](Implementation.md)
